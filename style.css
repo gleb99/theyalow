@@ -1,0 +1,86 @@
+body {
+    /* background-color: aqua; */
+    margin: 0px;
+}
+.main-wrapper {
+    width: 100%;
+}
+.inner_wrapper_width {
+    width: 1200px;
+}
+.bnner_header_wrapper {
+    height: 568px;
+    background-image: url(images/bnner-header.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 28px; 
+}
+.icon_area_wrapper {
+    height: 213px;
+    background-image: url(images/icon-aria.png);
+    /* background-size: cover; */
+}
+.inner_wrapper1 {
+    background-image: url(images/section1.png);
+    height: 507px;
+}
+.inner_wrapper2 {
+    background-image: url(images/section2.png);
+    height: 493px;
+}
+.inner_footer_wrapper {
+    background-image: url(images/footer.png);
+    height: 63px;
+}
+header {
+    position: relative;
+}
+.logo {
+    /* display: block; */
+    background-image: url(images/logo2.svg);
+    width: 84px;
+    height: 84px;
+    position: relative; 
+}
+.logo1 {
+    background-image: url(images/logo1.svg);
+    width: 79px;
+    height: 79px;
+    position: absolute;
+    left: 3px;
+    bottom: 2px;
+}
+.header_logo {
+    font-size: 41px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    text-align: center;
+    /* box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42); */
+    position: absolute;
+    left: 93px;
+}
+.main_nav {
+    width: 453px;
+    height: 41px;
+    background-color: #f5c506;
+    position: absolute;
+    right: 0px;
+    top: 42px;
+}
+.shadow_nav {
+    width: 453px;
+    height: 41px;
+    background-color:rgba(245,197,6,0.27);
+    position: absolute; 
+}
+.shadow_nav_1 {
+    right: 4px;
+    top: 37px;
+}
+.shadow_nav_2 {
+    right: 8px;
+    top: 32px;
+}
